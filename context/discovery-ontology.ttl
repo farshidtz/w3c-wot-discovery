@@ -33,17 +33,17 @@ discovery:hasRegistrationInformation rdf:type owl:ObjectProperty ;
 # Data Properties
 #################################################################
 
-### dct:created
-dct:created rdf:type owl:DatatypeProperty ;
-	rdfs:label "created" .
+### schema:dateCreated
+schema:dateCreated rdf:type owl:DatatypeProperty ;
+rdfs:label "date created" .
 
-### dct:modified
-dct:modified rdf:type owl:DatatypeProperty ;
-	rdfs:label "modified" .
+### schema:dateModified
+schema:dateModified rdf:type owl:DatatypeProperty ;
+rdfs:label "date modified" .
 
 ### schema:expires
 schema:expires rdf:type owl:DatatypeProperty ;
-	rdfs:label "expires" .
+rdfs:label "expires" .
 
 #################################################################
 # Classes
